@@ -32,37 +32,31 @@ html {
     position: relative;
     float: left;
     margin-right: 30px;
-    padding-bottom: 100px;
 }
 
 .box-content {
     overflow: hidden;
-    width: 392px;
-    height: 483px;
+    width: 382px;
+    height: 473px;
     margin: auto;
     position: relative;
 }
 
 .overlay {
     position: absolute;
-    left: 50%;
+    left: 0;
     top: 0;
-    transform: translateX(-50%);
-    width: 370px;
-    height: 473px;
+    width: 90%;
+    height: 90%;
     background: linear-gradient(to top,  rgba(252,227,138, .7) 0%, rgba(243,129,129, .7) 100%);
-    box-shadow: 10px 10px 0 0 rgb(149,225,211);
     visibility: hidden;
-    transition: linear;
-    transition-duration: 1s ease-in-out;
-    /* transition-delay: .5s; */
-    transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition: .4s ease-in-out;
 }
 
 .products:hover .overlay {
     visibility: visible;
-
-    
+    box-shadow: 10px 10px 0 0 rgb(149,225,211);
+    transform: translate(-10px -10px);
 }
 .buttons {
     position: absolute;
