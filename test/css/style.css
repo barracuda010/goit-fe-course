@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Menu */
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.products {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 100px;
+}
+
+.box-content {
+    overflow: hidden;
+    width: 392px;
+    height: 483px;
+    margin: auto;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 370px;
+    height: 473px;
+    background: linear-gradient(to top,  rgba(252,227,138, .7) 0%, rgba(243,129,129, .7) 100%);
+    box-shadow: 10px 10px 0 0 rgb(149,225,211);
+    visibility: hidden;
+    transition: linear;
+    transition-duration: 1s ease-in-out;
+    /* transition-delay: .5s; */
+    transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+.products:hover .overlay {
+    visibility: visible;
+
+    
+}
+.buttons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+}
+.buttons__img {
+    display: inline-block;
+    font-size: 0;
+}
+
+.choise {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin-right: 1px;
+    background-color: #fce38a;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-size: 26px 26px;
+    background-position: center;
+   
+
+}
+.choise:hover {
+    position: relative;
+    background-color: #95e1d3;
+    border: none;
+}
+.facebook {
+    background-image:url("../img/facebook.png");
+    background-size: 13px 26px;
+}
+.twitter {
+    background-image: url("../img/twitter.png");
+}
+.pinterest {
+    background-image:url("../img/pinterest.png");
+}
+.instagram {
+    background-image: url("../img/instagram.png");
