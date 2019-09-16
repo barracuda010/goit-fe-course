@@ -55,7 +55,7 @@ img {
     text-decoration: none;
     font-weight: 400;
     text-transform: uppercase;
-    transition: color 0.4s linear;
+    transition: color 0.4s ease-in-out;
 }
 
 .menu__navigation a:hover {
@@ -88,6 +88,7 @@ img {
     font-family: 'Kaushan Script', cursive;
     text-decoration: none;
     margin: 0 auto;
+    margin-bottom: 28px;
 }
 
 .amazing {
@@ -97,7 +98,7 @@ img {
     text-decoration: none;
     text-transform: uppercase;
     margin: 0 auto;
-    padding-top: 28px;
+    margin-bottom: 93px;
 
 }
 
@@ -127,7 +128,7 @@ img {
     margin: 0;
     padding: 0;
     padding-left: 83px;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 .clock {
@@ -174,7 +175,6 @@ img {
     font-weight: 400;
     color: #999999;
     text-align: center;
-    padding-top: 93px;
 
 }
 
@@ -201,7 +201,7 @@ img {
     position: relative;
     display: flex;
     justify-content: space-between;
-  
+    margin-bottom: 22px;
 }
 
 .overlay {
@@ -277,7 +277,7 @@ img {
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
-    padding-top: 31px;
+    margin-bottom: 31px;
 }
 .proffesion {
     font-family: 'Roboto', sans-serif;
@@ -286,7 +286,7 @@ img {
     font-size: 15px;
     color: #999999;
     text-align: center;
-    padding-top: 22px;
+    margin-bottom: 22px;
 }
 
 /* Footer */
@@ -294,7 +294,7 @@ img {
     display: flex;
     justify-content: space-between;
     min-width: 100%;
-    margin-top: 70px;
+    padding-top: 70px;
     
 }
 .main_footer {
