@@ -1,0 +1,331 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ----------------------------Site Navigation------------------ */
+.site__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px 0;
+}
+
+.logo {
+    font-size: 30px;
+    color: #95e1d3;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu__navigation {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.menu__navigation a {
+    font-size: 14px;
+    color: #95e1d3;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color 0.4s linear;
+}
+
+.menu__navigation a:hover {
+    font-size: 14px;
+    color: #f7a9a9;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.4s ease-in-out;
+    border-bottom: 3px solid #f7a9a9;
+    font-weight: normal;
+    padding-bottom: 12px;
+}
+
+/*---------------------------- Services-------------- */
+.features {
+    flex-grow: 1;
+}
+
+.work__list {
+    margin-bottom: 112px;
+}
+
+.work__with {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.amazing {
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 28px;
+
+}
+
+.amazing::after {
+    position: absolute;
+    display: block;
+    content: "";
+    background-color: #f7a9a9;
+    width: 60px;
+    height: 3px;
+    bottom: -43px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.features__lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.features__list {
+    flex-basis: 381px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding-left: 83px;
+    margin-bottom: 70px;
+}
+
+.clock {
+    background: url('../img/ALARM.png') no-repeat 0 0;
+}
+
+.pic {
+    background: url('../img/LINE\ GRAPH.png') no-repeat 0 0;
+}
+
+.tv {
+    background: url('../img/COMPUTER\ _\ OK.png') no-repeat 0 0;
+}
+
+.book {
+    background: url('../img/BOOK\ 2.png') no-repeat 0 0;
+}
+
+.house {
+    background: url('../img/HOME.png') no-repeat 0 0;
+}
+
+.frame {
+    background: url('../img/digital.png') no-repeat 0 0;
+}
+
+.features__work {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.features__story {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    text-align: left;
+}
+
+.history {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    padding-top: 93px;
+
+}
+
+/*------------------------ Member of team---------------- */
+.members {
+    position: relative;
+}
+
+.members__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.members:hover .overlay {
+    visibility: visible;
+    box-shadow: 10px 10px 0 0 rgb(149, 225, 211);
+    transform: translate(-10px, -10px);
+}
+
+.box-content {
+    width: 382px;
+    height: 473px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(252, 227, 138, .7) 0%, rgba(243, 129, 129, .7) 100%);
+    visibility: hidden;
+    transition: .4s ease-in-out;
+}
+
+.buttons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+}
+
+.buttons__img {
+    display: inline-block;
+    font-size: 0;
+}
+
+.social {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin-right: 1px;
+    background-color: #fce38a;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-size: 26px 26px;
+    background-position: center;
+}
+
+.social:hover {
+    position: relative;
+    background-color: #95e1d3;
+    border: none;
+}
+
+.facebook {
+    background-image: url("../img/facebook.png");
+    background-size: 13px 26px;
+}
+
+.twitter {
+    background-image: url("../img/twitter.png");
+}
+
+.pinterest {
+    background-image: url("../img/pinterest.png");
+}
+
+.instagram {
+    background-image: url("../img/instagram.png");
+}
+.worker {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 31px;
+}
+.proffesion {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+    padding-top: 22px;
+}
+
+/* Footer */
+.author {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    margin-top: 70px;
+    
+}
+.main_footer {
+    min-width: 100%;;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.laqiq {
+    color:#95e1d3;
+    text-decoration: none;
+    transition:0.4s linear;
+}
+.laqiq:hover {
+    color:#f6a1a1;
+}
+.mail {
+    display: flex;
+}
+.author input::placeholder {
+    color: #d9d9d9;
+    font-style: italic;
+}
+.subscribe {
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+    text-transform: uppercase;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
