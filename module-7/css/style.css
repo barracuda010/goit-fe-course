@@ -61,6 +61,11 @@
 html {
     box-sizing: border-box;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
 
 body {
 
@@ -77,15 +82,19 @@ img {
     width: 940px;
     margin: 0 auto;
 }
+.main__menu {
+    margin-bottom: 120px;
+}
 
 /* HEADER */
 .site__navigation {
     display: flex;
     font-size: 14px;
+    align-items: center;
     justify-content: space-between;
     padding-top: 56px;
     margin: 0;
-    margin-bottom: 127px;
+    padding-bottom: 127px;
 }
 
 .logo {
@@ -122,6 +131,8 @@ img {
 /* Services */
 .services {
     text-align: center;
+    margin-bottom: 82px;
+    padding-top: 110px;
 }
 
 .low__services {
@@ -134,7 +145,7 @@ img {
     font-weight: 700;
     margin: 0;
     margin-bottom: 22px;
-    padding-top: 110px;
+
 }
 
 .info {
@@ -144,12 +155,8 @@ img {
     font-style: italic;
     font-weight: 500;
     margin: 0;
-    margin-bottom: 82px;
 }
 
-.all__menu {
-    margin-bottom: 120px;
-}
 
 .menu {
     display: flex;
@@ -215,15 +222,16 @@ img {
 
 /* FORMS */
 input {
-    width: 460px;
+    width: 455px;
     height: 52px;
     border: none;
     border-radius: 5px;
     margin-bottom: 26px;
-    margin-right: 27px;
     padding-left: 15px;
     font-size: 20px;
-    ;
+}
+input:nth-child(3) {
+    margin-bottom: 0;
 }
 
 .sign__form ::placeholder {
@@ -251,14 +259,11 @@ button {
 }
 
 textarea {
-    width: 457px;
-    height: 211px;
+    width: 455px;
+    height: 210px;
     text-transform: uppercase;
-    margin-bottom: 26px;
-    margin-right: 27px;
     padding-left: 15px;
     font-size: 20px;
-    ;
     resize: none;
     border: none;
     border-radius: 5px;
@@ -294,4 +299,5 @@ input:focus:valid {
 .possition_form {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 29px;
 }
