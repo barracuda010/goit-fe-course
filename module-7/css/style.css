@@ -1,0 +1,297 @@
+/* alegreya-500italic - latin */
+@font-face {
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Alegreya Medium Italic'), local('Alegreya-MediumItalic'),
+        url('../fonts/alegreya-v13-latin-500italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/alegreya-v13-latin-500italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v14-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+        url('../fonts/roboto-slab-v9-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-slab-v9-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.site__navigation {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    padding-top: 56px;
+    margin: 0;
+    margin-bottom: 127px;
+}
+
+.logo {
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+    color: #fed136;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site__menu {
+    display: flex;
+    width: 485px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.site__menu a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+}
+
+.site__menu a:hover {
+    transition: color 0.4s linear;
+    color: #fed136;
+}
+
+/* Services */
+.services {
+    text-align: center;
+}
+
+.low__services {
+    color: #fff;
+}
+
+.services__info {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 22px;
+    padding-top: 110px;
+}
+
+.info {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 82px;
+}
+
+.all__menu {
+    margin-bottom: 120px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.service__menu {
+    width: 290px;
+
+}
+
+.service__menu:before {
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 24px;
+    height: 73px;
+}
+
+.icon__cart:before {
+    background-image: url('../img/icon-cart.jpg');
+}
+
+.icon__comp:before {
+    background-image: url('../img/icon-comp.jpg');
+}
+
+.icon__lock:before {
+    background-image: url('../img/icon-lock.jpg');
+}
+
+.service__menu h {
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.service__menu p {
+    font-family: 'Roboto Slab', serif;
+    color: #777777;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* Footer */
+
+.footer {
+
+    min-height: 675px;
+    background-color: #222222;
+    background-image: url('../img/map_image.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+/* FORMS */
+input {
+    width: 460px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 26px;
+    margin-right: 27px;
+    padding-left: 15px;
+    font-size: 20px;
+    ;
+}
+
+.sign__form ::placeholder {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 22px;
+    color: #c0c0c0;
+}
+
+button {
+    display: block;
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 457px;
+    height: 211px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+    margin-right: 27px;
+    padding-left: 15px;
+    font-size: 20px;
+    ;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    color: #c0c0c0;
+}
+
+textarea:focus:invalid {
+    outline: 5px solid red;
+    border-radius: 5px;
+}
+
+textarea:focus:valid {
+    outline: 5px solid green;
+    border-radius: 5px;
+}
+
+input:focus:invalid {
+    outline: 5px solid red;
+    border-radius: 5px;
+}
+
+input:focus:valid {
+    outline: 5px solid green;
+    border-radius: 5px;
+}
+
+.possition_form {
+    display: flex;
+    justify-content: space-between;
+}
