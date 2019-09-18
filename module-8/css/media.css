@@ -1,0 +1,106 @@
+
+@media (min-width:320px) and (max-width:767px)  {
+    .sign__up {
+        text-align:center;
+        margin-bottom: 115px;
+       
+    }
+    .main__persons {
+        padding-top: 70px;
+    
+    }
+    .partner__holiday{
+    padding-bottom: 20px;
+    }
+    .guests{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width:768px) and (max-width:959px) {
+    .people {
+        width: 492px;
+        margin:0 auto;
+    }
+    .partner__holiday {
+        padding: 0;
+        margin-bottom: 57px;
+    }
+    .main__persons {
+        padding-top: 77px;
+    }
+    .guests:nth-child(-n+2){
+        margin-bottom: 60px;
+    }
+    .guests:nth-child(3),
+    .guests:nth-child(4){
+        margin-bottom: 40px;
+    }
+}
+/* Min Width 768 */
+@media (min-width: 768px) {
+    .container {
+        width: 748px;
+    }
+    .page__header {
+        background-image: url('../img/tablet/narod.png');
+    }
+    .people {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .guests {
+        width: 236px;
+    }
+    .header__content {
+        display:flex;   
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:154px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+    .middle__text {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .middle__text h1{
+        font-size: 52px;
+    }
+    .middle__text p{
+        font-size: 24px;
+    }
+}
+ /* Width 960 */
+@media (min-width: 960px) {
+    .container {
+        width: 942px;
+    }
+    .page__header {
+        background-image: url('../img/pc/ludi.png');
+    }
+    .main__persons {
+        padding-top: 75px;
+    }
+    .guests {
+        width: 220px;
+    }
+    .people {
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .middle__text h1{
+        font-size: 52px;
+    }
+    .middle__text p{
+        font-size: 24px;
+    }
+    .partner__holiday {
+        padding:0;
+        margin-bottom: 38px;
+    }
+}
