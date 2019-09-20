@@ -1,0 +1,133 @@
+@media (max-width:767px) {
+    .middle__text p {
+        width: 220px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .partner__holiday {
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .bottoms {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .guests {
+        margin-bottom: 30px;
+    }
+    .guests p{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .sign_buttons {
+        margin-bottom: 120px;
+    }
+}
+
+@media (min-width:768px) and (max-width:959px) {
+    .page__header {
+        background-image: url('../img/tablet/narod.png');
+    }
+    .header__content {
+        align-items: center;
+        margin-bottom: 154px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .middle__text {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .middle__text h1 {
+        font-size: 52px;
+    }
+
+    .middle__text p {
+        font-size: 24px;
+    }
+
+
+
+    .partner__holiday {
+        padding: 0;
+        margin-bottom: 57px;
+        text-align: center;
+    }
+
+    .main__persons {
+        padding-top: 77px;
+    }
+    .guests p{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .guests:nth-child(-n+2) {
+        margin-bottom: 60px;
+    }
+
+    .guests:nth-child(3),
+    .guests:nth-child(4) {
+        margin-bottom: 40px;
+    }
+
+    .bottoms {
+        padding-top: 74px;
+        padding-bottom: 40px;
+    }
+    .logo {
+        text-align: left;
+    }
+}
+
+@media (min-width:960px) {
+
+    .page__header {
+        background-image: url('../img/pc/ludi.png');
+    }
+
+    .main__persons {
+        padding-top: 75px;
+    }
+
+    .people {
+        margin-bottom: 40px;
+    }
+    .middle__text {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .middle__text h1 {
+        font-size: 52px;
+    }
+
+    .middle__text p {
+        font-size: 24px;
+    }
+
+    .partner__holiday {
+        padding: 0;
+        margin-bottom: 38px;
+    }
+
+    .partner__holiday {
+        padding: 0;
+        text-align: center;
+    }
+
+    .bottoms {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .logo {
+        text-align: left;
+    }
+}
