@@ -115,7 +115,8 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0 188px;
+    padding-top: 40px;
+    margin-bottom: 188px;
 }
 
 .site__logo {
@@ -171,7 +172,7 @@ h6 {
     fill: #fce38a;
 }
 /* Page Navigation Features */
-.nav__info{
+.nav__button-learn{
     padding-bottom: 230px;
 }
 .title__info {
@@ -237,8 +238,12 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
+.features__list:nth-child(n+4):nth-child(-n+6) {
+    margin-bottom: 0;
+}
+
 .features__list {
     width: 383px;
     display: flex;
@@ -272,15 +277,27 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
+    
+    
+}
+.team__member-info {
     margin-bottom: 90px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 90px;    
 }
 /* Our Team */
 .team {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 87px;
 }
   .team__member {
     width: 381px;
@@ -383,7 +400,6 @@ h6 {
     display: flex;
     justify-content: space-between;
     min-width: 100%;
-    padding-top: 70px;
     
 }
 .site__author-info{
