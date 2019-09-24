@@ -7,7 +7,7 @@ yarn-error.log*
 package-lock.json
 
 # build artifacts
-build/
+# build/
 
 # Runtime data
 pids
