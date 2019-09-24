@@ -1,0 +1,18 @@
+.nav__button-learn{
+    padding-bottom: 230px;
+}
+.nav__info-button {
+    display: block;
+    margin: 0 auto;
+    width:157px;
+    height: 37px;
+    border: 3px solid $primary-white-color;
+    color: $primary-white-color;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: $main-font;
+    font-weight: 700;
+    text-align: center;
+}

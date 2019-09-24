@@ -1,0 +1,37 @@
+.site__author {
+    @include center-all('all');
+    min-width: 100%;
+}
+.site__author-info{
+    min-width: 100%;;
+    border-top: 1px solid $footer-border-color;
+    @include flex-between('all');
+    padding-top: 10px;
+}
+.laqiq {
+    color:$primary-aqua-color;
+    text-decoration: none;
+    transition:0.4s linear;
+    &:hover {
+        color:$author-color;
+    }
+}
+
+.author__name {
+    font-size: $main-font-size;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.author__mail {
+    display: flex;
+}
+
+.subscribe__button {
+    width: 150px;
+    height: 40px;
+    background-color: $primary-aqua-color;
+    text-transform: uppercase;
+    color:$primary-white-color;
+    border: none;
+    cursor: pointer;
+}

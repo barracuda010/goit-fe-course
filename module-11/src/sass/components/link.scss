@@ -1,0 +1,29 @@
+.link {
+    font-size: $main-font-size;
+    font-weight: 400;
+    color:$primary-white-color; 
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.4s ease-in-out;
+    &:hover {
+        color: $hover-color;
+        list-style: none;
+        font-weight: 700;
+        cursor: pointer;
+        transition: color 0.4s ease-in-out;
+        border-bottom: 3px solid $hover-color;
+        font-weight: normal;
+        padding-bottom: 12px;
+    }
+}
+.link svg {
+    display:inline-block;
+    width: 18px;
+    height: 18px;
+    fill:$primary-white-color;
+    &:hover {
+        fill: $hover-color;
+    }
+}
+
+

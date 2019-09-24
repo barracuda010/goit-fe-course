@@ -1,0 +1,59 @@
+@mixin flex-between($type: 'all') {
+    display: flex;
+    @if $type== 'all' {
+        justify-content: space-between;
+        align-items: center;
+    }   @else if $type=='hor' {
+        justify-content: center;
+    }   @else if $type== 'ver' {
+        align-items: center;
+    }
+}
+
+@mixin center-flex($type: 'all') {
+    display: flex;
+    @if $type== 'all' {
+        justify-content: center;
+        align-items: center;
+    }   @else if $type=='hor' {
+        justify-content: center;
+    }   @else if $type== 'ver' {
+        align-items: center;
+    }
+}
+
+@mixin pseudo($display: inline-block, $content: ''){
+    display:$display;
+    content: $content;
+}
+
+@mixin center-all($type:'all'){
+    display:flex;
+    @if $type=='all'{
+        justify-content: space-between;
+    }   @else if $type=='hor' {
+        justify-content: space-between;
+    }
+}
+
+@mixin cont-center ($type:'all'){
+    display:flex;
+    @if $type=='all'{
+        justify-content: center;
+    }   @else if $type=='hor' {
+        justify-content: center;
+    }
+}
+
+@mixin abs-center ($type:'all') {
+    position:absolute;
+    @if $type=='all'{
+        justify-content: center;
+        align-items: center;
+    }   @else if $type=='hor' {
+        justify-content: center;
+    }   @else if $type== 'ver' {
+        align-items: center;
+    }
+    
+}

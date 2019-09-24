@@ -1,0 +1,18 @@
+@import 'helpers/variables';
+@import 'helpers/mixins' ;
+@import 'normalize';
+@import 'base';
+
+
+/*Components*/ 
+
+@import 'components/header-background';
+@import 'components/page-navigation';
+@import 'components/title-header';
+@import 'components/nav-info';
+@import 'components/nav-info-butn';
+@import 'components/link';
+@import 'components/fonts';
+@import 'components/features-info-and-list';
+@import 'components/team.scss';
+@import 'components/site-footer-author';
