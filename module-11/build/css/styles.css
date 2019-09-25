@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*Text and Fonts*/
+/*Text*/
 
 /*Colors*/
 
@@ -445,13 +445,12 @@ h6 {
 /*Components*/
 
 .header__background {
-  background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url("../img/team/background-min.png");
+  background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url("../images/background-min.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
   background-position: center;
   background-size: cover;
-  margin-bottom: 50px;
 }
 
 .page__nav {
@@ -485,7 +484,7 @@ h6 {
 
 .title__info {
   text-align: center;
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .title__greeting {
@@ -509,7 +508,7 @@ h6 {
   margin-bottom: 127px;
 }
 
-.nav__button-learn {
+.all__header {
   padding-bottom: 230px;
 }
 
@@ -524,7 +523,7 @@ h6 {
   background-color: transparent;
   cursor: pointer;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat';
   font-weight: 700;
   text-align: center;
 }
@@ -608,6 +607,10 @@ h6 {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+.services {
+  padding-top: 50px;
+}
+
 .features__info-first {
   font-size: 24px;
   margin-bottom: 28px;
@@ -663,7 +666,7 @@ h6 {
 
 .features__text-first {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   margin-bottom: 12px;
   font-weight: 700;
@@ -855,6 +858,6 @@ h6 {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .header__background {
-    background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url("../img/team/background@2x-min.png");
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url("../images/background@2x-min.png");
   }
 }

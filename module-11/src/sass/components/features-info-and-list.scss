@@ -1,3 +1,6 @@
+.services {
+    padding-top: 50px;
+}
 .features__info-first {
     font-size: 24px;
     margin-bottom: 28px;
@@ -30,7 +33,7 @@
         &:nth-child(n+4):nth-child(-n+6) {
             margin-bottom: 0;
         }
-
+        
     }
     &__img {
         width: 132px;
@@ -45,14 +48,14 @@
 
 .features__text-first {
     text-transform: uppercase;
-    font-family: $main-font;
+    font-family: 'Montserrat', sans-serif;
     font-size: $main-font-size;
     margin-bottom: 12px;
     font-weight: 700;
 }
 .features__text-second {
     font-size: 15px;
-    font-family:$second-font;
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     color: $features-color;
 }

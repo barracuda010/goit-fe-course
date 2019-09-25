@@ -1,16 +1,14 @@
 .header__background {
-    background:linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url("../img/team/background-min.png");
+    background:linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url("../images/background-min.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
     background-position: center;
     background-size: cover;
-    margin-bottom: 50px;
-
 }
 @media (min-resolution: 192dpi),(-webkit-min-device-pixel-ratio: 2) {
     .header__background {
-        background:linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url("../img/team/background@2x-min.png");
+        background:linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url("../images/background@2x-min.png");
     }
 }
 

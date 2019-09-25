@@ -3,21 +3,21 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-family:$second-font;
+    font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
-
-
+    
+    
 }
 .team__member-info {
     margin-bottom: 90px;
     text-align: center;
-    font-family:$second-font;
+    font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
     margin: 0 auto;
     margin-bottom: 90px;
-    color:$team-info-color;
+    color:$team-info-color;    
 }
    .team {
     @include center-all('all');
@@ -29,7 +29,7 @@
     position: relative;
     margin-bottom: 30px;
   }
-
+  
   .team__img {
     width: 381px;
     height: 470px;
@@ -39,7 +39,7 @@
         background-color: $primary-aqua-color;
       }
   }
-
+  
   .team__img-icon {
     @include abs-center ('all') ;
     opacity: 0;
@@ -49,7 +49,7 @@
     z-index: 20;
     transition: all 0.2s linear;
   }
-
+  
   .team__img-gradient {
     position: absolute;
     background: linear-gradient(to top, #f0d88a, #ef8b8a);
@@ -61,14 +61,14 @@
     z-index: 10;
     transition: all 0.2s linear;
   }
-
+  
   .team__img-bckgr {
     position: absolute;
     width: 381px;
     height: 470px;
     background-color: $primary-aqua-color;
   }
-
+  
   .icon__btn{
     box-sizing: border-box;
     background: $hover-color;
@@ -82,13 +82,13 @@
   }
   .team__info-name {
     text-transform: uppercase;
-    font-family: $second-font;
+    font-family: "Roboto", sans-serif;
     margin-bottom: 5px;
   }
-
+  
   .team__info-job {
     font-style: italic;
-    font-family: $second-font;
+    font-family: "Roboto", sans-serif;
     color: $job-color;
   }
 .team__member:hover .team__img-gradient {
@@ -96,11 +96,11 @@
     right: 10px;
     bottom: 10px;
   }
-
+  
   .team__member:hover .team__img-icon {
     opacity: 1;
   }
-
+  
   .team__member:hover .team__img {
     right: 10px;
     bottom: 10px;
@@ -113,9 +113,9 @@
         fill: $primary-white-color;
     }
   }
-
+  
   .job {
     font-style: italic;
-    font-family:$second-font;
+    font-family: "Roboto", sans-serif;
     color: $job-color;
   }
